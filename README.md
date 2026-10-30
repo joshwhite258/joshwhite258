@@ -25,5 +25,5 @@ Result: runs 24/7 as a systemd service on the homelab. Private repo; demo on req
 - Next: shared agent definitions, and measuring where the routing actually saves usage.
 
 ## Contact
-
+- joshwhite0381@gmail.com
 - LinkedIn: [linkedin.com/in/joshwhite-engineer](https://linkedin.com/in/joshwhite-engineer)
