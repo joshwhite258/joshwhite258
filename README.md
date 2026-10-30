@@ -18,6 +18,8 @@ Result: runs 24/7 as a systemd service on the homelab. Private repo; demo on req
 
 ## How I work with Claude
 
+Full write-up with the daily schedule and diagrams: **[ai-workflow](https://github.com/joshwhite258/ai-workflow)**
+
 - **Context as code.** Every project keeps a short CLAUDE.md (stack, deploy steps, rules, what not to touch) plus reusable skills in a private context repo, so a session starts out knowing the project.
 - **Model routing.** A written guide: a small model for lookups and search, a mid-tier one for most coding, the strongest for design and review.
 - **A task queue that runs itself.** I tag a Todoist task; a scheduled Claude run picks it up twice a day, does the work on a branch, and the change merges only when CI passes. Anything else waits for my review.
